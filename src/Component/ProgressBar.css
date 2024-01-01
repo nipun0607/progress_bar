@@ -1,0 +1,47 @@
+.container{
+    height:400px;
+    width:500px;
+   
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.progress-bar{
+    height:30px;
+    width:100%;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.progress-bar-fill{
+    height:100%;
+    background-color:lightgreen;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+.label{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: #444444;
+    font-weight: bold;
+}
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
+.btn_container button{
+   
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+    color:#eee;
+    margin-right: 20px;
+    padding: 8px 16px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+     
+
+}
